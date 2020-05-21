@@ -264,7 +264,7 @@ Practical sessions around basic fault tolerance patterns.
 * image:fr.png[width=15] `Le seigneur des conteneurs : un atelier de migration vers Kubernetes et Traefik`
 
 * icon:slideshare[] link:https://containous.github.io/slides/devoxx-fr-2019/[Slides,window="_blank"]
-  | icon:info-circle[] link:https://cfp.devoxx.fr/2019/talk/YMY-8034/Le_seigneur_des_conteneurs:_un_atelier_de_migration_vers_Kubernetes_et_Traefik[Session Information,window="_blank"]
+  | icon:info-circle[] link:++https://cfp.devoxx.fr/2019/talk/YMY-8034/Le_seigneur_des_conteneurs_:_un_atelier_de_migration_vers_Kubernetes_et_Traefik.html++[Session Information,window="_blank"]
   | icon:code[] link:https://github.com/containous/slides/tree/devoxx-fr-2019[Source,window="_blank"]
 
 #### Voxxed Luxembourg 2019
@@ -339,7 +339,7 @@ Practical sessions around basic fault tolerance patterns.
 
 * image:uk.png[width=15] `Tales of Training: Scaling CodeLabs with Swarm Mode and Docker-Compose`
 
-* icon:youtube[] link:https://dockercon.docker.com/watch/rskvsKK4TvNEzXWKvjZpDX[Session Recording,window="_blank"]
+* icon:youtube[] link:https://www.youtube.com/watch?v=Dk5a5BDJJZ0[Session Recording,window="_blank"]
 
 #### GDG Devfest Lille 2017
 
@@ -503,7 +503,7 @@ and usability.
 * icon:calendar-minus-o[] `12/2009`
 * icon:calendar-plus-o[] `06/2009`
 * icon:map-marker[] Chile image:cl.png[width=15]
-* icon:university[] link:https://www.pucv.cl/[Pontificia Universidad de Valparaíso (P.U.C.V),window="_blank"]
+* icon:university[] link:https://en.wikipedia.org/wiki/Pontifical_Catholic_University_of_Valpara%C3%ADso[Pontificia Universidad de Valparaíso (P.U.C.V),window="_blank"]
 
 [NOTE]
 .Description
