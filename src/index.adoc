@@ -1,6 +1,6 @@
 # Curriculum Vitae | Damien DUPORTAL
 Damien DUPORTAL
-v2.0, 2019-10-16
+v2.1, 2020-05-21
 :icons: font
 :email: damien.duportal+pro@gmail.com
 :sectlinks:
@@ -34,6 +34,28 @@ Phone icon:phone[]::
 * image:fr.png[width=15] `+33(0)6 50 83 37 76`
 
 ## icon:industry[] Professional Experience
+
+### DevOps Consultant for OpenIO as Freelancer
+
+icon:calendar[] From: `01/2020` until `today`
+
+icon:users[] link:https://openio.io[OpenIO,window="_blank"] - Remote
+
+[NOTE]
+.Description
+====
+* CI/CD consultant (audit, engineering, maintaining) for link:https://openio.io[OpenIO]
+** Enterprise Product on a private Jenkins instance, including immutability, configuration as code, and pipeline shared libraries
+** Open Source Product on TravisCI and CircleCI
+** Continous Testing with Infrastructure as Code (Openstack platform driven by Terraform + Ansible, Docker containers driven by compose and k3s)
+** Training and guiding on CI/CD good practises to capitalize on the company's effort
+
+* Product Advocacy:
+** Communicating publicly through press events, blog posts, conferences about the OpenIO products and knowledge
+** Elaborating technical demonstrator for futur integrations with Kubernetes, Function-as-a-Service and IA markets
+
+* Presales Effort: Technical support for the pre-sales team
+====
 
 ### Developer Advocate for the Traefik Project as Freelancer
 
