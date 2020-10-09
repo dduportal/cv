@@ -35,16 +35,16 @@ Phone icon:phone[]::
 
 ## icon:industry[] Professional Experience
 
-### DevOps Consultant for OpenIO as Freelancer
+### DevOps Consultant for OpenIO/OVHcloud as Freelancer
 
 icon:calendar[] From: `01/2020` until `today`
 
-icon:users[] link:https://openio.io[OpenIO,window="_blank"] - Remote
+icon:users[] link:https://openio.io[OpenIO,window="_blank"] / link:https://www.ovh.com[OVHcloud,window="_blank"] (link:https://blocksandfiles.com/2020/07/24/ovhcloud-acquires-openio-to-build-best-object-storage-service/[OVHcloud acquired OpenIO in July 2020])- Remote
 
 [NOTE]
 .Description
 ====
-* CI/CD consultant (audit, engineering, maintaining) for link:https://openio.io[OpenIO]
+* CI/CD consultant (audit, engineering, maintaining)
 ** Enterprise Product on a private Jenkins instance, including immutability, configuration as code, and pipeline shared libraries
 ** Open Source Product on TravisCI and CircleCI
 ** Continous Testing with Infrastructure as Code (Openstack platform driven by Terraform + Ansible, Docker containers driven by compose and k3s)
