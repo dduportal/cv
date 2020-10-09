@@ -460,11 +460,11 @@ on link:https://blog.containo.us/[Containous Blog,window="_blank"]
 on link:https://d2iq.com/blog[D2IQ (formerly Mesosphere) Blog,window="_blank"]
 
 * icon:pencil[] Blog Post Serie image:uk.png[width=15] "The Journey to Traefik Enterprise Edition" on link:https://blog.containo.us/[Containous Blog,window="_blank"]:
-** link:https://blog.containo.us/the-journey-to-traefik-enterprise-edition-join-the-free-early-access-program-b73e07d62f30[Part 1 - "Join the Free Early Access Program",window="_blank"]
-** link:https://blog.containo.us/the-journey-to-traefik-enterprise-edition-product-evaluation-4828508cbc8[Part 2 - "Product Evaluation",window="_blank"]
-** link:https://blog.containo.us/the-journey-to-traefik-enterprise-edition-high-availability-7421718be2d8[Part 3 - "High Availability",window="_blank"]
-** link:https://blog.containo.us/the-journey-to-traefik-enterprise-edition-https-for-everyone-90a36b33600[Part 5 - "HTTPS for Everyone",window="_blank"]
-** link:https://blog.containo.us/the-journey-to-traefik-enterprise-edition-smooth-operations-2591bb7ff1fe[Part 6 - "Smooth Operations",window="_blank"]
+** link:https://traefik.io/blog/the-journey-to-traefik-enterprise-edition-join-the-early-access-program-b73e07d62f30/[Part 1 - "Join the Free Early Access Program",window="_blank"]
+** link:https://traefik.io/blog/the-journey-to-traefik-enterprise-edition-product-evaluation-4828508cbc8/[Part 2 - "Product Evaluation",window="_blank"]
+** link:https://traefik.io/blog/the-journey-to-traefik-enterprise-edition-high-availability-7421718be2d8/[Part 3 - "High Availability",window="_blank"]
+** link:https://traefik.io/blog/the-journey-to-traefik-enterprise-edition-https-for-everyone-90a36b33600/[Part 5 - "HTTPS for Everyone",window="_blank"]
+** link:https://traefik.io/blog/the-journey-to-traefik-enterprise-edition-smooth-operations-2591bb7ff1fe/[Part 6 - "Smooth Operations",window="_blank"]
 
 * icon:pencil[] Blog Post image:uk.png[width=15] link:https://vmblog.com/archive/2019/05/07/the-road-to-a-better-kubernetes-ingress.aspx["The Road to a Better Kubernetes Ingress",window="_blank"]
 on link:https://vmblog.com/home.aspx[VMBlog.com,window="_blank"]
