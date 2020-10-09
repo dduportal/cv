@@ -1,8 +1,16 @@
 version: '2.4'
 
+# Reusable options
+x-base: &cv-base
+  image: asciidoctor/docker-asciidoctor:1.2.0
+  user: ${CURRENT_UID}
+  volumes:
+    - ./src:/documents
+    - ./dist:/dist
+
 services:
   html:
-    image: asciidoctor/docker-asciidoctor:1.1.0
+    <<: *cv-base
     command: >
       asciidoctor /documents/index.adoc
       -a cv-url="${CV_URL}"
@@ -11,23 +19,15 @@ services:
       -a toc=left
       -a toclevels=2
       -o /dist/index.html
-    user: ${CURRENT_UID}
-    volumes:
-      - ./src:/documents
-      - ./dist:/dist
 
   pdf:
-    image: asciidoctor/docker-asciidoctor:1.1.0
+    <<: *cv-base
     command: >
       asciidoctor-pdf /documents/index.adoc
       -a cv-url="${CV_URL}"
       -a source-url="${SOURCE_URL}"
       -a short-owner-name="${SHORT_OWNER_NAME}"
       -o /dist/cv-"${SHORT_OWNER_NAME}".pdf
-    user: ${CURRENT_UID}
-    volumes:
-      - ./src:/documents
-      - ./dist:/dist
 
   test:
     build: ./htmlproofer/
