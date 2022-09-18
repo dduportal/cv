@@ -345,7 +345,7 @@ Practical sessions around basic fault tolerance patterns.
 
 * image:fr.png[width=15] `Jenkins, BlueOcean and Declarative Pipelines`
 
-* icon:slideshare[] link:http://dduportal.github.io/presentations/devfest-lille-2017/[Slides,window="_blank"]
+* icon:slideshare[] link:http://dduportal.github.io/slides/devfest-lille-2017/[Slides,window="_blank"]
 
 #### Devoxx France (Paris) 2017
 
@@ -427,11 +427,11 @@ https://www.meetup.com/fr-FR/GDG-Lille/events/260272230/[window="_blank"]
 
 * image:fr.png[width=15] Docker Meetup Grenoble `Introduction à Docker Swarm` - 2016 https://www.meetup.com/fr-FR/Docker-Grenoble/events/222375065/?eventId=222375065[window="_blank"]
 
-* image:uk.png[width=15] Docker Meetup Brussels `Collaborative Docker Swarm Workshop on Raspberry Pi` - 2016 http://dduportal.github.io/presentations/docker-meetup-brussels-20160210[window="_blank"]
+* image:uk.png[width=15] Docker Meetup Brussels `Collaborative Docker Swarm Workshop on Raspberry Pi` - 2016 http://dduportal.github.io/slides/docker-meetup-brussels-20160210[window="_blank"]
 
 * image:uk.png[width=15] Online Docker Meetup `Rpi2 challenge status` - 2015 https://www.youtube.com/watch?v=1u2hO6-hV80[window="_blank"]
 
-* image:fr.png[width=15] Docker Meetup Lyon `Docker, Pets vs Cattles` - 2014 http://dduportal.github.io/presentations/docker-meetup-lyon-20140528/[window="_blank"]
+* image:fr.png[width=15] Docker Meetup Lyon `Docker, Pets vs Cattles` - 2014 http://dduportal.github.io/slides/docker-meetup-lyon-20140528/[window="_blank"]
 
 ### icon:youtube[] Webinars
 
