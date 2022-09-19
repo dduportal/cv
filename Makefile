@@ -1,28 +1,23 @@
 
 CURRENT_UID = $(shell id -u):$(shell id -g)
 DIST_DIR ?= $(CURDIR)/dist
-REPOSITORY_NAME ?= cv
+
 REPOSITORY_OWNER ?= dduportal
-REPOSITORY_BASE_URL ?= https://github.com/$(REPOSITORY_OWNER)/$(REPOSITORY_NAME)
+REPOSITORY_NAME ?= cv
 OWNER_NAME ?= "Damien DUPORTAL"
+
+REPOSITORY_URL ?= https://github.com/$(REPOSITORY_OWNER)/$(REPOSITORY_NAME)
+CV_URL ?= https://$(REPOSITORY_OWNER).github.io/$(REPOSITORY_NAME)
 SHORT_OWNER_NAME ?= $(shell echo "$(OWNER_NAME)" | tr '[:upper:]' '[:lower:]' | tr ' ' '-')
 
-### TRAVIS_BRANCH == TRAVIS_TAG when a build is triggered by a tag as per https://docs.travis-ci.com/user/environment-variables/
-ifndef TRAVIS_BRANCH
-# For running outside Travis
-TRAVIS_BRANCH = $(shell git rev-parse --abbrev-ref HEAD)
-endif
-
-SOURCE_URL = $(REPOSITORY_BASE_URL)/tree/$(TRAVIS_BRANCH)
-
-ifneq ($(TRAVIS_BRANCH), master)
-CV_URL = https://$(REPOSITORY_OWNER).github.io/$(REPOSITORY_NAME)/$(TRAVIS_BRANCH)
+ifdef GITHUB_REF
+	GIT_REF = $(GITHUB_REF:refs/heads/%=%)
 else
-CV_URL = https://$(REPOSITORY_OWNER).github.io/$(REPOSITORY_NAME)
+	GIT_REF = $(shell git rev-parse --abbrev-ref HEAD)
 endif
+SOURCE_URL ?= $(REPOSITORY_URL)/tree/$(GIT_REF)
 
-export CV_URL REPOSITORY_URL REPOSITORY_BASE_URL TRAVIS_BRANCH \
-	CURRENT_UID SOURCE_URL SHORT_OWNER_NAME
+export CV_URL REPOSITORY_URL SOURCE_URL SHORT_OWNER_NAME CURRENT_UID
 
 .PHONY: all
 all: clean build test
@@ -48,21 +43,3 @@ clean:
 .PHONY: test
 test: $(DIST_DIR)/index.html
 	docker-compose up --build test
-
-.PHONY: deploy
-deploy:
-	rm -rf $(DEPLOY_DIR)
-	git config remote.origin.fetch '+refs/heads/*:refs/remotes/origin/*'
-	git fetch --unshallow origin $(DEPLOY_BRANCH) || git fetch origin --prune
-	git worktree remove $(DEPLOY_DIR) --force 2>/dev/null || true
-	git worktree add -b $(DEPLOY_BRANCH) $(DEPLOY_DIR) origin/$(DEPLOY_BRANCH) 2>/dev/null \
-		|| git worktree add --force $(DEPLOY_DIR) origin/$(DEPLOY_BRANCH) 2>/dev/null
-ifneq ($(TRAVIS_BRANCH), master)
-	echo $(TRAVIS_BRANCH)
-	mkdir -p $(DEPLOY_DIR)/$(TRAVIS_BRANCH)
-	cp -r ./dist/ $(DEPLOY_DIR)/$(TRAVIS_BRANCH)/
-else
-	# Master at the root
-	cp -r ./dist/* $(DEPLOY_DIR)/
-endif
-	@echo "Deploy Done"
