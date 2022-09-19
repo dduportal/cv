@@ -58,6 +58,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           destination_dir: ${{ steps.tags.outputs.tag }}
+          keep_files: true
       - name: 'Deploy Branch (if run triggered by a push to a branch)'
         if: startsWith(github.ref, 'refs/heads/') && github.ref != 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
@@ -65,6 +66,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           destination_dir: ${{ steps.branches.outputs.branch }}
+          keep_files: true
       - name: 'Deploy Principal Branch (if run triggered by a push to the principal branch)'
         if: github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
@@ -72,3 +74,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
           destination_dir: ./
+          keep_files: true
