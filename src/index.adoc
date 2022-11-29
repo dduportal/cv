@@ -1,6 +1,6 @@
 # Curriculum Vitae | Damien DUPORTAL
 Damien DUPORTAL
-v2.1, 2020-05-21
+v2.2, 2020-09-19
 :icons: font
 :email: damien.duportal+pro@gmail.com
 :sectlinks:
@@ -24,20 +24,29 @@ Whoami:: Damien DUPORTAL - icon:birthday-cake[] `09/12/1987`
 Contact & Social:: link:mailto:{email}[icon:envelope[] E-Mail `{email}`]
   | link:https://github.com/dduportal[icon:github[] Github `dduportal`,window="_blank"]
   | link:https://twitter.com/DamienDuportal[icon:twitter[] `@DamienDuportal`,window="_blank"]
-  | link:https://www.linkedin.com/in/damien-duportal-ab70b524/[icon:linkedin[] Linkedin Profile,window="_blank"]
+  | link:https://www.linkedin.com/in/damien-duportal-ab70b524/[icon:linkedin[] LinkedIn Profile,window="_blank"]
 
 Location:: icon:map-marker[] `rue de Montmagny 19, 4140 - Sprimont, Belgium` image:be.png[width=15]
 
-Phone icon:phone[]::
-
-* image:be.png[width=15] `+32(0)4 72 97 20 06`
-* image:fr.png[width=15] `+33(0)6 50 83 37 76`
-
 ## icon:industry[] Professional Experience
+
+### SRE for the Jenkins Project at CloudBees
+
+icon:calendar[] From: `12/2020` until `today`
+
+icon:users[] link:https://cloudbees.com[CloudBees,window="_blank"] / link:https://jenkins.io[Jenkins Project,window="_blank"] - Remote
+
+[NOTE]
+.Description
+====
+* Lead and mentor the Jenkins Public Infrastructure Team, as the community elected Jenkins Officer (2022, 2023)
+* Promoted to Staff Software Engineer (SRE) Job Level since 01/2022
+* Senior Software Engineer (SRE) Job Level from 12/2020 until 12/2021
+====
 
 ### DevOps Consultant for OpenIO/OVHcloud as Freelancer
 
-icon:calendar[] From: `01/2020` until `today`
+icon:calendar[] From: `01/2020` until `11/2020`
 
 icon:users[] link:https://openio.io[OpenIO,window="_blank"] / link:https://www.ovh.com[OVHcloud,window="_blank"] (link:https://blocksandfiles.com/2020/07/24/ovhcloud-acquires-openio-to-build-best-object-storage-service/[OVHcloud acquired OpenIO in July 2020])- Remote
 
@@ -47,8 +56,8 @@ icon:users[] link:https://openio.io[OpenIO,window="_blank"] / link:https://www.o
 * CI/CD consultant (audit, engineering, maintaining)
 ** Enterprise Product on a private Jenkins instance, including immutability, configuration as code, and pipeline shared libraries
 ** Open Source Product on TravisCI and CircleCI
-** Continous Testing with Infrastructure as Code (Openstack platform driven by Terraform + Ansible, Docker containers driven by compose and k3s)
-** Training and guiding on CI/CD good practises to capitalize on the company's effort
+** Continuous Testing with Infrastructure as Code (Openstack platform driven by Terraform + Ansible, Docker containers driven by compose and k3s)
+** Training and guiding on CI/CD good practices to capitalize on the company's effort
 
 * Product Advocacy:
 ** Communicating publicly through press events, blog posts, conferences about the OpenIO products and knowledge
@@ -73,9 +82,9 @@ icon:users[] link:https://containo.us[Containous,window="_blank"] - Remote
 ** Working on the User Experience: Documentation, packaging, installation, Helm Chart maintenance,
 platform validations
 
-* Partipating on other Containous products
+* Participating on other Containous products
 ** User experience, documentation, website and packaging for link:https://containo.us/traefikee/[Traefik Enterprise Edition]
-** PreSales and Solution Architecturing for customerds during early phases of link:https://containo.us/traefikee/[Traefik Enterprise Edition]
+** PreSales and Solution Architect for customers during early phases of link:https://containo.us/traefikee/[Traefik Enterprise Edition]
 ** User experience, documentation, website and packaging for https://mae.sh[Maesh Service Mesh]
 ====
 
@@ -102,7 +111,7 @@ icon:users[] link:https://www.synolia.com/[Synolia,window="_blank"] - Remote + O
 [NOTE]
 .Description
 ====
-* Jenkins infrastructure audit & good practises
+* Jenkins infrastructure audit & good practices
 * Teaching the team to autonomously switch to SSH Agents with Docker capabilities
 * CI/CD Pipeline audit
 ====
@@ -120,7 +129,7 @@ Providing training to CloudBees customers as part of the
 service offers. Maintaining the training catalog, building, driving and
 contributing to a collaborative training as a code content base.
 Building and delivering training labs for self paced and trainer based.
-Part time consultancy for CloudBees Profesional Service team.
+Part time consultancy for CloudBees Professional Service team.
 ====
 
 ### Lead DevOps Engineer & Technical Advocate
@@ -132,7 +141,7 @@ icon:users[] link:https://worldline.com/[Atos Worldline,window="_blank"] - Lyon 
 [NOTE]
 .Description
 ====
-Part time bootstraping the usage of Docker within
+Part time bootstrapping the usage of Docker within
 Worldline by pushing an internal collaborative initiative.
 Part time as technical 'firefighter', generally to support birth pains
 of first production deliveries. Part time as technical advocate to the
@@ -185,7 +194,7 @@ a new product based on Oracle/ESRI and written in Java.
 
 ## icon:university[] Teachings
 
-### Course: Introduction to Continous Integration and Deployment
+### Course: Introduction to Continuous Integration and Deployment
 
 * icon:calendar[] `01/2019` (Promotion 2018/2019)
 ** link:https://dduportal.github.io/ensg-ci-cd/2018-2019/#/introduction_au_ci_cd[icon:slideshare[] Slides,window="_blank"]
@@ -201,8 +210,8 @@ a new product based on Oracle/ESRI and written in Java.
 [NOTE]
 .Description
 ====
-A 2-days introduction to Continous Integration and Delivery (C.I/C.D.) practises to IT Master-2 students.
-Use Jenkins for included workshop, and request to use an alternative (hosted) CI for the exam (Gitlab CI, TravisCI, Github Action, Bitbucket Pipeline, CircleCI, etc.).
+A 2-days introduction to Continuous Integration and Delivery (C.I/C.D.) practices to IT Master-2 students.
+Use Jenkins for included workshop, and request to use an alternative (hosted) CI for the exam (GitLab CI, TravisCI, Github Action, Bitbucket Pipeline, CircleCI, etc.).
 ====
 
 ### Course: Introduction to Docker Containers
@@ -259,7 +268,7 @@ Practical sessions around basic fault tolerance patterns.
 
 ### Conferences
 
-#### Devoxx France (Paris) 2019
+#### DevoXX France (Paris) 2019
 
 * image:fr.png[width=15] `Le seigneur des conteneurs : un atelier de migration vers Kubernetes et Traefik`
 
@@ -486,14 +495,14 @@ and usability.
 
 ### Master Degree of IT Engineering
 
-* icon:graduation-cap[] Diplomed in `10/2010`
+* icon:graduation-cap[] Graduated in `10/2010`
 * icon:calendar-plus-o[] Started in `09/2005`
 * icon:university[] link:https://www.insa-lyon.fr/[Institut National des Sciences Appliquées (I.N.S.A.) Lyon,window="_blank"]
 
 [NOTE]
 .Description
 ====
-* 2 years of common engineering and sciences (Math, Physic, Chemistery, Industrialization, IT, Humanities, Languages, Sports, etc.)
+* 2 years of common engineering and sciences (Math, Physic, Chemistry, Industrialization, IT, Humanities, Languages, Sports, etc.)
 
 * 3 years of software engineering
 ====
@@ -508,7 +517,7 @@ and usability.
 [NOTE]
 .Description
 ====
-Academic exchange in Chile as part of my master softar engineering diploma,
+Academic exchange in Chile as part of my software engineering master diploma,
 studying Software Engineering in Valparaíso University.
 ====
 
@@ -526,7 +535,7 @@ studying Software Engineering in Valparaíso University.
 
 * Test Driven Development
 * Behavior Driven Development
-* Continous Integration / Deployment / Delivery
+* Continuous Integration / Deployment / Delivery
 * Collaborative Development: Code Review & Pair Programming
 
 ### icon:wrench[] Technical
@@ -551,7 +560,7 @@ studying Software Engineering in Valparaíso University.
 
 * Hashicorp Stack enthusiast:
 ** Vagrant contributor
-** Golden Image Infrasturcture Patterns: Using Packer/Terraform since 2012/2014
+** Golden Image Infrastructure Patterns: Using Packer/Terraform since 2012/2014
 
 * A bit of frontend development experience: Grunt and GulpJS, NPM/NodeJS for Asciidoctor
 and HTML slides frameworks.
