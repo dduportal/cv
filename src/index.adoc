@@ -1,6 +1,6 @@
 # Curriculum Vitae | Damien DUPORTAL
 Damien DUPORTAL
-v2.2, 2020-09-19
+v2.3, 2024-03-08
 :icons: font
 :email: damien.duportal+pro@gmail.com
 :sectlinks:
@@ -26,11 +26,11 @@ Contact & Social:: link:mailto:{email}[icon:envelope[] E-Mail `{email}`]
   | link:https://twitter.com/DamienDuportal[icon:twitter[] `@DamienDuportal`,window="_blank"]
   | link:https://www.linkedin.com/in/damien-duportal-ab70b524/[icon:linkedin[] LinkedIn Profile,window="_blank"]
 
-Location:: icon:map-marker[] `rue de Montmagny 19, 4140 - Sprimont, Belgium` image:be.png[width=15]
+Location:: icon:map-marker[] France image:fr.png[width=15]
 
 ## icon:industry[] Professional Experience
 
-### SRE for the Jenkins Project at CloudBees
+### Staff SRE for the Jenkins Project at CloudBees
 
 icon:calendar[] From: `12/2020` until `today`
 
@@ -39,7 +39,7 @@ icon:users[] link:https://cloudbees.com[CloudBees,window="_blank"] / link:https:
 [NOTE]
 .Description
 ====
-* Lead and mentor the Jenkins Public Infrastructure Team, as the community elected Jenkins Officer (2022, 2023)
+* Lead and mentor the Jenkins Public Infrastructure Team, as the community elected Jenkins Officer (2022, 2023, 2024)
 * Promoted to Staff Software Engineer (SRE) Job Level since 01/2022
 * Senior Software Engineer (SRE) Job Level from 12/2020 until 12/2021
 ====
